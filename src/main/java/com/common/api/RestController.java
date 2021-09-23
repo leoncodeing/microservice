@@ -11,4 +11,8 @@ public class RestController {
     public String get() {
         return "hello";
     }
+
+    @RequestMapping(method = RequestMethod.POST, value = "/upload")
+    public void uploadFile() {
+    }
 }
